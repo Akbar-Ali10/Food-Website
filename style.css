@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header-section-main {
+    background-image: url(./banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 100px;
+    background-position: center;
+}
+
+.header-i i {
+    font-size: 25px;
+    color: white;
+}
+
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header-main h1 {
+    color: #E9BD8C;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    margin-right: 300px;
+    color: white;
+}
+
+.header-nav ul li {
+    padding: 10px 20px;
+    color: white;
+}
+
+.header-nav ul li:hover {
+    color: #E9BD8C;
+}
+.header-i a {
+    color: #E9BD8C;
+    margin: 0 10px;
+}
+
+/* ////////////////////////////////////////////// */
+
+
+.section-main {
+    margin-top: 50px;
+}
+
+.section-main p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #E9BD8C;
+    animation: move 1s ease forwards alternate-reverse;
+}
+
+.section-main h2 {
+    font-size: 40px;
+    color: white;
+    font-family: "Sansita Swashed", system-ui;
+    animation: move 1.2s ease forwards alternate-reverse;
+}
+
+.section-main button {
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+.section-main .btn1 {
+    background: #933C24;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    animation: move 1.4s ease forwards alternate-reverse;
+}
+
+.section-main .btn2 {
+    color: #933C24;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+    animation: move 1.5s ease forwards alternate-reverse;
+}
+
+
+/* //////////////////////////////////////////////// */
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Sansita Swashed", system-ui;
+}
+
+h1:hover {
+    color: #E9BD8C;
+}
+
+.product-main img {
+    width: 300px;
+    padding: 10px 10px;
+
+
+}
+
+.product-main .img1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product-main .img2 {
+    /* margin-left: 150px; */
+    text-align: center ;
+}
+
+/* /////////////////////////////////////////////////////////////// */
+
+
+.order {
+    background-image: url(./order.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.order-main {
+    text-align: center;
+}
+
+.order-main p {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.order-main button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #933C24;
+    color: white;
+    margin-bottom: 10px;
+}
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+.nav-ul{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-ul nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 30%;
+}
+
+.nav-ul nav ul li {
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.more-main {
+    margin-bottom: 50px;
+}
+
+.more img {
+    width: 250px;
+    padding: 5px 5px;
+
+}
+
+.more-img1 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.more-img2 {
+    text-align: center;
+}
+
+
+
+/* ///////////////////////////////////////////////////// */
+
+
+.about {
+    background-image: url(./about.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 50vh; */
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.about-main {
+    text-align: center;
+}
+
+.about-main p {
+    font-size: 19px;
+    line-height: 25px;
+}
+
+.about-main button {
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #933C24;
+    color: white;
+    margin-bottom: 50px;
+}
+
+
+/* /////////////////////////////////////////////// */
+
+.t-img1 img {
+    width: 250px;
+}
+
+.t-img2 img {
+    width: 250px;
+}
+
+.t-img3 img {
+    width: 250px;
+}
+
+.treats {
+    margin-bottom: 50px;
+}
+
+.t-img1 p {
+    font-weight: bolder;
+}
+
+.t-img2 p {
+    font-weight: bolder;
+}
+
+.t-img3 p {
+    font-weight: bolder;
+}
+
+.treats-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 200px;
+}
+
+
+/* //////////////////////////////////////// */
+
+footer {
+    background-image: url(./footer.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    position: relative;
+    height: 50vh;
+}
+
+.f-logo-f-icons {
+    background-image: url(./footer.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-logo-f-icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    margin-left: 90px;
+    color: white;
+}
+
+.icons {
+    margin-right: 90px;
+    padding-right: 20px;
+}
+
+.footer-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer-about ul {
+    margin-top: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.footer-explore ul {
+    margin-top: 20px;
+    line-height: 30px;
+    color: white;
+}
+
+.footer-recent {
+    margin-top: 20px;
+    line-height: 30px;
+    color: white;
+
+}
+
+
+/* /////////////////////////////////////////////////////////// */
+
+#scroll-to-top {
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    position: fixed;
+    background-color: #933C24;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    padding: 9px 18px;
+    right: 10px;
+
+}
+
+
+
+
+
+
+
+
+/* //////////////////////////////////////////////////////////// */
+
+@keyframes move {
+    from {
+        filter: blur(0px);
+        transform: translateX(20px);
+    }
+
+    to {
+        filter: blur(100px);
+        transform: translateX(-200px);
+    }
+}
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////////////////////////// */
+@media screen and (max-width:800px) {
+    .header-main {
+        flex-direction: column;
+    }
+
+    .header-nav ul {
+        flex-direction: column;
+        margin-left: 300px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .section-main {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .order-main {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .product-main {
+        flex-direction: column;
+        /* margin-left: 100px; */
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .order-main {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .more-main {
+        flex-direction: column;
+        /* margin-left: 120px; */
+    }
+
+    .nav-ul nav ul {
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .more-main {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+    .more-main {
+        flex-direction: column;
+    }
+
+    .more-img1 {
+        flex-direction: column;
+    }
+
+    .more-img2 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .treats-main {
+        flex-direction: column;
+        line-height: 30px;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    #scroll-to-top {
+        flex-direction: column;
+        margin-right: 300px;
+        /* margin-top: 10px; */
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .f-logo-f-icons {
+        flex-direction: column;
+    }
+
+    .footer-logo {
+        margin-right: 70px;
+    }
+
+    .icons {
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .footer-main {
+        flex-direction: column;
+        padding-top: 20px;
+        line-height: 50px;
+    }
+
+    .footer-about {
+        line-height: 50px;
+    }
+
+    .footer-explore {
+        padding-right: 30px;
+        line-height: 50px;
+    }
+
+    .footer-recent {
+        line-height: 50px;
+    }
+}
